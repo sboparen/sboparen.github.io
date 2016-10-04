@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<ul>
+    {% assign pages = site.pages | sort:'frontpage' %}
+    {% for page in pages %}
+        {% if page.frontpage %}
+            <li>
+                <h2>
+                    {% if page.layout == 'external' %}
+                        <a href="{{ page.link_url }}">
+                    {% else %}
+                        <a href="{{ page.url }}">
+                    {% endif %}
+                        {{ page.frontpage }}
+                    </a>
+                </h2>
+                {% if page.description_title %}
+                    <header><h3>{{ page.title }}</h3></header>
+                {% endif %}
+                {{ page.description }}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>

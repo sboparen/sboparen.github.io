@@ -1,0 +1,17 @@
+# My contact information.
+title: Simon Benjamin Orion Parent
+email: sboparen@gmail.com
+
+# Hosting settings.
+url: "http://sboparen.github.io"
+
+# Post settings.
+markdown: kramdown
+excerpt_separator: <!--more-->
+permalink: /posts/:year/:title.html
+date_format: "%B %e, %Y"
+
+# Markdown settings.
+kramdown:
+    entity_output: true
+    smart_quotes: ["apos", "apos", "quot", "quot"]

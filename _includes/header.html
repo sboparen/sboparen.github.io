@@ -1,0 +1,10 @@
+<header id="site">
+    <h1>
+        {% if page.url == '/index.html' %}
+            {{ site.title }}
+        {% else %}
+            <a href="/">{{ site.title }}</a>
+        {% endif %}
+    </h1>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+</header>

@@ -1,0 +1,32 @@
+html {
+    overflow-y: scroll;
+}
+body {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 1.17em;
+    margin-bottom: 0;
+}
+li {
+    margin-bottom: 1em;
+}
+
+#site {
+    padding-bottom: 0.3em;
+}
+#site h1 {
+    font-size: 1.17em;
+}

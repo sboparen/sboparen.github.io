@@ -1,0 +1,22 @@
+#!/bin/bash
+set -e
+cd "$(dirname "${BASH_SOURCE[0]}")"/..
+
+_build/all
+
+ROOT=_site
+test -e "$ROOT"
+test -e ~/github/website/
+
+cd ~/github/website
+git reset --hard origin/master
+git checkout -f master
+
+cd -
+test -e "$ROOT"
+test -e ~/github/website/
+rsync --delete -azcv "$ROOT"/ ~/github/website/ --exclude=.git
+
+cd ~/github/website
+git add .
+git commit -a -m "Automated update."
