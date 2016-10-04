@@ -1,8 +1,0 @@
-#!/bin/bash
-set -e
-cd "$(dirname "${BASH_SOURCE[0]}")"/..
-
-for f in `find _site -name '*.html'`; do
-    echo "$f"
-    tidy5 -ascii -q -i -m "$f"
-done
