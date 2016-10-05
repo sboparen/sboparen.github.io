@@ -1,42 +1,52 @@
 [
     {
         "description": "A failed International Obfuscated C Code Contest entry.  See the included README for spoilers.", 
+        "html_url": "https://github.com/sboparen/1k-codec", 
         "name": "1k-codec"
     }, 
     {
         "description": "This script lets you snooze emails in your Gmail; the email is archived, but will reappear in a set number of days. If you use Inbox Zero, you might like this a lot.  Based on <http://gmailblog.blogspot.ca/2011/07/gmail-snooze-with-apps-script.html>", 
+        "html_url": "https://github.com/sboparen/gmail-snooze", 
         "name": "gmail-snooze"
     }, 
     {
         "description": "My window manager, forked from dwm.  My changes don't merge easily into newer versions, so I'm stuck on 5.5.  dwm itself is hosted at <http://dwm.suckless.org>", 
+        "html_url": "https://github.com/sboparen/my-dwm", 
         "name": "my-dwm"
     }, 
     {
         "description": "My fork of OpenITG, with some minor but important changes, mostly for the UW DDR Club.", 
+        "html_url": "https://github.com/sboparen/openitg", 
         "name": "openitg"
     }, 
     {
         "description": "Use your favourite text editor to rename files! I wrote this program a long time ago, but I still use it all the time. Also, I last felt the need to modify it in 2011, so I guess it counts as a mature program.", 
+        "html_url": "https://github.com/sboparen/ren", 
         "name": "ren"
     }, 
     {
         "description": "https://sboparen.github.io/resume/", 
+        "html_url": "https://github.com/sboparen/resume", 
         "name": "resume"
     }, 
     {
         "description": "https://sboparen.github.io/", 
+        "html_url": "https://github.com/sboparen/sboparen.github.io", 
         "name": "sboparen.github.io"
     }, 
     {
         "description": "Scripts which generate a webpage to compare your SpaceChem solutions with the best on SolutionNet, or with your chosen rival(s).", 
+        "html_url": "https://github.com/sboparen/spacechem", 
         "name": "spacechem"
     }, 
     {
         "description": "Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use.", 
+        "html_url": "https://github.com/sboparen/stepmania", 
         "name": "stepmania"
     }, 
     {
         "description": "Scripts and custom puzzles for the game TIS-100.", 
+        "html_url": "https://github.com/sboparen/tis100", 
         "name": "tis100"
     }
 ]
