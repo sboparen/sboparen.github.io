@@ -4,7 +4,7 @@ import os
 import requests
 
 categories = [
-    ('Software I Use', [
+    ('My Everyday Software', [
         'env',
         'dwm',
         'gmail-snooze',
@@ -20,7 +20,7 @@ categories = [
         'stepmania',
         'tis100',
         ]),
-    ('This Website', [
+    ('Source Code For This Website', [
         'sboparen.github.io',
         'resume',
         ]),
@@ -39,6 +39,8 @@ def update_repos():
             repo = data[reponame]
             del data[reponame]
             keys = ['name', 'description', 'html_url']
+            if repo['description'].startswith('https://sboparen.github.io/'):
+                repo['description'] = ''
             repos.append({k: repo[k] for k in keys})
         output.append({'title': title, 'repos': repos})
     assert len(data) == 0, 'uncategorized repos: %s' % data.keys()

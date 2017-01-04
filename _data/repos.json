@@ -2,37 +2,37 @@
     {
         "repos": [
             {
-                "description": null, 
+                "description": "My personal environment.  If you're me, just run `git clone --recursive https://github.com/sboparen/env && env/install.sh` to set up a new machine.", 
                 "html_url": "https://github.com/sboparen/env", 
                 "name": "env"
             }, 
             {
-                "description": "My window manager, forked from dwm.  My changes don't merge easily into newer versions, so I'm stuck on 5.5.  dwm itself is hosted at <http://dwm.suckless.org>", 
+                "description": "My window manager, forked from [dwm](http://dwm.suckless.org). Somehow I gave it even more of a minimalist aesthetic.", 
                 "html_url": "https://github.com/sboparen/dwm", 
                 "name": "dwm"
             }, 
             {
-                "description": "This script lets you snooze emails in your Gmail; the email is archived, but will reappear in a set number of days. If you use Inbox Zero, you might like this a lot.  Based on <http://gmailblog.blogspot.ca/2011/07/gmail-snooze-with-apps-script.html>", 
+                "description": "This script lets you snooze emails in your Gmail. The email is archived, but will reappear in a set number of days. If you use Inbox Zero, you might like this a lot.  Based on <https://gmailblog.blogspot.ca/2011/07/gmail-snooze-with-apps-script.html>.", 
                 "html_url": "https://github.com/sboparen/gmail-snooze", 
                 "name": "gmail-snooze"
             }, 
             {
-                "description": "Use your favourite text editor to rename files! I wrote this program a long time ago, but I still use it all the time. Also, I last felt the need to modify it in 2011, so I guess it counts as a mature program.", 
+                "description": "Use your favourite text editor to rename files! I haven't changed the code since 2011, but I'm still using it over five years later.", 
                 "html_url": "https://github.com/sboparen/ren", 
                 "name": "ren"
             }
         ], 
-        "title": "Software I Use"
+        "title": "My Everyday Software"
     }, 
     {
         "repos": [
             {
-                "description": "A failed International Obfuscated C Code Contest entry.  See the included README for spoilers.", 
+                "description": "My entry for the 2011 [International Obfuscated C Code Contest](http://ioccc.org/).  See the included README for spoilers.", 
                 "html_url": "https://github.com/sboparen/1k-codec", 
                 "name": "1k-codec"
             }, 
             {
-                "description": null, 
+                "description": "Learning how to use WebGL to make virtual reality experiences.", 
                 "html_url": "https://github.com/sboparen/vrdemo", 
                 "name": "vrdemo"
             }
@@ -42,7 +42,7 @@
     {
         "repos": [
             {
-                "description": "My fork of OpenITG, with some minor but important changes, mostly for the UW DDR Club.", 
+                "description": "My fork of OpenITG, with some minor but important changes, mostly for the [UW DDR Club](https://www.facebook.com/UWDDR/).", 
                 "html_url": "https://github.com/sboparen/openitg", 
                 "name": "openitg"
             }, 
@@ -52,12 +52,12 @@
                 "name": "spacechem"
             }, 
             {
-                "description": "Advanced rhythm game for Windows, Linux and OS X. Designed for both home and arcade use.", 
+                "description": "My fork of [StepMania](https://www.stepmania.com/), optimized for editing and maybe even playing charts designed for ITG.", 
                 "html_url": "https://github.com/sboparen/stepmania", 
                 "name": "stepmania"
             }, 
             {
-                "description": "Scripts and custom puzzles for the game TIS-100.", 
+                "description": "Scripts and custom puzzles for the game [TIS-100](http://www.zachtronics.com/tis-100/).", 
                 "html_url": "https://github.com/sboparen/tis100", 
                 "name": "tis100"
             }
@@ -67,16 +67,16 @@
     {
         "repos": [
             {
-                "description": "https://sboparen.github.io/", 
+                "description": "", 
                 "html_url": "https://github.com/sboparen/sboparen.github.io", 
                 "name": "sboparen.github.io"
             }, 
             {
-                "description": "https://sboparen.github.io/resume/", 
+                "description": "", 
                 "html_url": "https://github.com/sboparen/resume", 
                 "name": "resume"
             }
         ], 
-        "title": "This Website"
+        "title": "Source Code For This Website"
     }
 ]
