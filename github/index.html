@@ -11,22 +11,15 @@ frontpage: My Github
 <p>
 Github Profile: <a href="https://github.com/sboparen">github.com/sboparen</a>
 
-{% assign categories = 'useful game other' | split: ' ' %}
-{% assign hidden = 'sboparen.github.io resume stepmania' | split: ' ' %}
-
-{% include_relative _category.html category='useful' title='Software I Use' %}
-{% include_relative _category.html category='game' title='Video Game Related' %}
-{% include_relative _category.html category='other' title='Other' %}
-
-{% for repo in site.data.repos %}
-    {% if hidden contains repo.name %}
-        {% continue %}
-    {% endif %}
-    {% assign pages = site.pages | where: 'repo', repo.name %}
-    {% if pages.size == 1 %}
-        {% if categories contains pages[0].category %}
-            {% continue %}
-        {% endif %}
-    {% endif %}
-    <li>ERROR: missing repo "{{ repo.name }}"
+{% for category in site.data.repos %}
+    <h2>{{ category.title }}</h2>
+    <ul>
+        {% for repo in category.repos %}
+            <li>
+            <h3><a href="{{ repo.html_url }}">{{ repo.name }}</a></h3>
+            {% if repo.description %}
+                {{ repo.description | markdownify }}
+            {% endif %}
+        {% endfor %}
+    </ul>
 {% endfor %}
