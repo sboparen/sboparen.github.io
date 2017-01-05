@@ -1,4 +1,3 @@
 [submodule "resume"]
 	path = resume
 	url = https://github.com/sboparen/resume.git
-	branch = pages
