@@ -31,6 +31,10 @@ def update_repos():
     response.raise_for_status()
     data = json.loads(response.content)
     data = {repo['name']: repo for repo in data}
+    for name in sorted(data.keys()):
+        if data[name]['description'] is None:
+            del data[name]
+            print '%s has no description, skipping' % name
     output = []
     for title, reponames in categories:
         repos = []
