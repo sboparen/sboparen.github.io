@@ -9,7 +9,7 @@ frontpage: My Posts
     {% if post.layout == 'post' %}
         <h2>{{ post.title }}</h2>
         {{ post.date | date: site.date_format }}
-        <p>{{ post.content | split: '<!--more-->' | first }}</p>
+        {{ post.content | split: '<!--more-->' | first | markdownify }}
         <a href="{{ post.url }}">Read more</a>
     {% endif %}
 {% endfor %}

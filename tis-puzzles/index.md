@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TIS-100 Puzzles!
+date: 2015-06-30
 redirect_from: /posts/2015/tis-puzzles.html
 ---
 
@@ -32,4 +33,4 @@ make all of the fixed test cases the same.
 I have solutions for all of the puzzles, but due to the time constraint,
 I have not had time to seriously optimize them.
 
-{% include_relative 2015-06-30-links %}
+{% include_relative _links %}
