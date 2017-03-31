@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TIS-100 Puzzles!
+redirect_from: /posts/2015/tis-puzzles.html
 ---
 
 These are my entries for the TIS-100 puzzle design contest.
