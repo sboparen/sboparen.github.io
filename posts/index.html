@@ -5,6 +5,14 @@ frontpage: My Posts
 ---
 <h1>{{ page.title }}</h1>
 
+{% for post in site.pages %}
+    {% if post.layout == 'post' %}
+        <h2>{{ post.title }}</h2>
+        {{ post.date | date: site.date_format }}
+        <p>{{ post.content | split: '<!--more-->' | first }}</p>
+        <a href="{{ post.url }}">Read more</a>
+    {% endif %}
+{% endfor %}
 {% for post in site.posts %}
     <h2>{{ post.title }}</h2>
     {{ post.date | date: site.date_format }}
