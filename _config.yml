@@ -18,9 +18,9 @@ kramdown:
 
 # Exclusions for resume/
 exclude: [
+    '/resume/*.html',
     '/resume/*.log',
     '/resume/*.sh',
-    '/resume/partial.html',
     '/resume/resume.*',
 ]
 
