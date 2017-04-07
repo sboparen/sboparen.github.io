@@ -1,18 +1,9 @@
 ---
 layout: default
 title: My Posts
-frontpage: My Posts
 ---
 <h1>{{ page.title }}</h1>
 
-{% for post in site.pages %}
-    {% if post.layout == 'post' %}
-        <h2>{{ post.title }}</h2>
-        {{ post.date | date: site.date_format }}
-        {{ post.content | split: '<!--more-->' | first | markdownify }}
-        <a href="{{ post.url }}">Read more</a>
-    {% endif %}
-{% endfor %}
 {% for post in site.posts %}
     <h2>{{ post.title }}</h2>
     {{ post.date | date: site.date_format }}

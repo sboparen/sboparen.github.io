@@ -5,7 +5,8 @@ date: 2009-07-30
 redirect_from: /posts/2009/graphics.html
 ---
 
-Some things I made while I was taking Introduction to Computer Graphics.
+Some images rendered by the programs I wrote while I was taking
+Introduction to Computer Graphics.
 
 <!--more-->
 

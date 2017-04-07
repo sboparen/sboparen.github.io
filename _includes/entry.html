@@ -1,0 +1,21 @@
+<li>
+    <h2>
+	{% if page.layout == 'external' %}
+	    <a href="{{ page.link_url }}">
+	{% else %}
+	    <a href="{{ page.url }}">
+	{% endif %}
+            {% if page.frontpage_title %}
+	        {{ page.frontpage_title }}
+            {% else %}
+                {{ page.title }}
+            {% endif %}
+	</a>
+    </h2>
+    {% if page.description %}
+	{{ page.description | markdownify }}
+    {% else %}
+	{{ page.content | split:'<!--more-->' | first | markdownify }}
+    {% endif %}
+</li>
+

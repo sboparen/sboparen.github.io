@@ -1,11 +1,12 @@
 ---
 layout: post
-title: TIS-100 Puzzles!
+title: TIS-100 Puzzles
 date: 2015-06-30
 redirect_from: /posts/2015/tis-puzzles.html
 ---
 
-These are my entries for the TIS-100 puzzle design contest.
+My entries for the TIS-100 puzzle design contest.
+<!--more-->
 There are fifteen puzzles, each of which falls into one of three series:
 
 **Quantum Entanglement Series:**
