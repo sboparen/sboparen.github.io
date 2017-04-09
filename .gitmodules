@@ -1,3 +1,6 @@
+[submodule "icons"]
+	path = icons
+	url = https://github.com/teambox/Free-file-icons
 [submodule "resume"]
 	path = resume
 	url = https://github.com/sboparen/resume.git
