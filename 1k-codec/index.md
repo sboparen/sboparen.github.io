@@ -16,8 +16,7 @@ All development was done with the program in this "obfuscated" form.
 My favourite part is the code reuse accomplished by the definition of `M`.
 
 <a href="1k-codec.c">
-<img src="/icons/32px/c.png" alt="(C source code) ">1k-codec.c
-</a>
+<img src="/icons/32px/c.png" alt="(C source code) ">1k-codec.c</a>
 
 ```
 #include<stdio.h>
