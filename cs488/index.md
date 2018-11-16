@@ -2,6 +2,7 @@
 layout: post
 title: Highlights from CS 488
 date: 2009-07-30
+priority: 1
 redirect_from: /posts/2009/graphics.html
 ---
 

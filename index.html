@@ -13,7 +13,7 @@ layout: default
 </ul>
 <hr>
 <ul>
-    {% assign pages = site.pages | sort:'date' | reverse %}
+    {% assign pages = site.pages | sort:'date' | sort:'priority' | reverse %}
     {% for page in pages %}
         {% if page.date %}
             {% include entry.html %}

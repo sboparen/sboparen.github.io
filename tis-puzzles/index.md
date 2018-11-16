@@ -2,6 +2,7 @@
 layout: post
 title: TIS-100 Puzzles
 date: 2015-06-30
+priority: 1
 redirect_from: /posts/2015/tis-puzzles.html
 ---
 

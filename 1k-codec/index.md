@@ -2,6 +2,7 @@
 layout: post
 title: Codec in 1K
 date: 2012-01-11
+priority: 1
 ---
 My submission for the 20th
 [International Obfuscated C Code Contest](http://ioccc.org/).

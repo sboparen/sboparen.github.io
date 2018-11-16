@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Progress
+ura_date: 2013-10-24
 redirect_from: /posts/2013/progress.html
 ---
 
@@ -30,8 +31,8 @@ $ python3 lambda.py
 Even better is the following program, which shows that some progress
 has been made.
 
-<a href="/posts/2013/progress.py">progress.py</a>
+<a href="progress.py">progress.py</a>
 
 {% highlight python %}
-{% include_relative 2013-progress.py %}
+{% include_relative progress.py %}
 {% endhighlight %}

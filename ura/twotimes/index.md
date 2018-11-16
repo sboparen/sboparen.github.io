@@ -1,6 +1,7 @@
 ---
 layout: post
 title: twotimes
+ura_date: 2011-03-06
 redirect_from: /posts/2011/twotimes.html
 ---
 
@@ -16,8 +17,8 @@ unknown until the end of the file is reached.
 
 <!--more-->
 
-<a href="/posts/2011/twotimes.c">twotimes.c</a>
+<a href="twotimes.c">twotimes.c</a>
 
 {% highlight c %}
-{% include_relative 2011-twotimes.c %}
+{% include_relative twotimes.c %}
 {% endhighlight %}

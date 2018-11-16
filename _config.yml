@@ -5,13 +5,8 @@ email: sboparen@gmail.com
 # Hosting settings.
 url: "https://sboparen.github.io"
 
-# Post settings.
-markdown: kramdown
-excerpt_separator: <!--more-->
-permalink: /posts/:year/:title.html
-date_format: "%B %e, %Y"
-
 # Markdown settings.
+markdown: kramdown
 kramdown:
     entity_output: true
     smart_quotes: ["apos", "apos", "quot", "quot"]
@@ -24,5 +19,5 @@ exclude: [
     '/resume/resume.*',
 ]
 
-gems:
+plugins:
   - jekyll-redirect-from

@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1>（裏）</h1>
+<ul>
+    {% assign pages = site.pages | sort:'ura_date' | reverse %}
+    {% for page in pages %}
+        {% if page.ura_date %}
+            {% include entry.html %}
+        {% endif %}
+    {% endfor %}
+</ul>
